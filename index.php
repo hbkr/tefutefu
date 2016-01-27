@@ -3,18 +3,18 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TefuTefu連鎖 - Tefu君の名言をマルコフ連鎖で自動生成</title>
-<meta name="description" content="Tefu君の名言をマルコフ連鎖で自動生成">
+<title>TehuTehu連鎖 - Tehu君の名言をマルコフ連鎖で自動生成</title>
+<meta name="description" content="Tehu君の名言をマルコフ連鎖で自動生成">
 <meta property="fb:app_id" content="283781975031992" />
-<meta property="og:title" content="TefuTefu連鎖" />
+<meta property="og:title" content="TehuTehu連鎖" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://vps1.liverty.biz/hbkr/tefu/" />
 <meta property="og:image" content="http://vps1.liverty.biz/hbkr/tefu/tefuogp.png" />
-<meta property="og:site_name" content="TefuTefu連鎖" />
+<meta property="og:site_name" content="TehuTehu連鎖" />
 <meta property="og:locale" content="ja_JP" />
-<meta property="og:description" content="Tefu君の名言をマルコフ連鎖で自動生成" />
+<meta property="og:description" content="Tehu君の名言をマルコフ連鎖で自動生成" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:description" content="Tefu君の名言をマルコフ連鎖で自動生成" />
+<meta name="twitter:description" content="Tehu君の名言をマルコフ連鎖で自動生成" />
 <meta name="twitter:site" content="@hbkr" />
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css" />
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
@@ -35,8 +35,8 @@
 <div class="container">
 
 <header>
-<h1>TefuTefu連鎖</h1>
-<p class="desc">Tefu君の名言をマルコフ連鎖で自動生成します</p>
+<h1>TehuTehu連鎖</h1>
+<p class="desc">Tehu君の名言をマルコフ連鎖で自動生成します</p>
 </header>
 
 <main>
@@ -94,7 +94,7 @@ echo $summary;
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
   </div>
   <div class="u-pull-left" style="margin-left:5px;">
-    <a href="http://b.hatena.ne.jp/entry/http://vps1.liverty.biz/hbkr/tefu" class="hatena-bookmark-button" data-hatena-bookmark-title="TefuTefu連鎖" data-hatena-bookmark-layout="simple" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+    <a href="http://b.hatena.ne.jp/entry/http://vps1.liverty.biz/hbkr/tefu" class="hatena-bookmark-button" data-hatena-bookmark-title="TehuTehu連鎖" data-hatena-bookmark-layout="simple" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
   </div>
   <div class="u-cf">
     <a href="https://github.com/hbkr/tefutefu">github</a> / <a href="http://twitter.com/hbkr">twitter</a> kazuma ieiri

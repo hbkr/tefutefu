@@ -1,6 +1,6 @@
-# TefuTefu連鎖
+# TehuTehu連鎖
 
-Tefu君の名言を形態素解析→マルコフ連鎖で自動生成します
+Tehu君の名言を形態素解析→マルコフ連鎖で自動生成します
 
 http://vps1.liverty.biz/hbkr/tefu
 
