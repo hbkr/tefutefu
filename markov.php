@@ -36,10 +36,11 @@ class Markov {
       }
 
       if (count($a) == 0) break;
+
       $num = array_rand($a);
       $summary .= $a[$num][$gram - 1];
 
-      //200文字
+      //文字制限
       if (mb_strlen($summary) >= 200 && $a[$num][$gram - 1] == "。") {
         break;
       }

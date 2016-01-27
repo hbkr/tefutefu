@@ -1,6 +1,6 @@
 # TefuTefu連鎖
 
-Tefu君の名言をMeCabによる形態素解析 → マルコフ連鎖テスト
+Tefu君の名言を形態素解析 → マルコフ連鎖
 
 http://vps1.liverty.biz/hbkr/tefu
 

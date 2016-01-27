@@ -1,0 +1,77 @@
+body {
+  margin:20px 0; font-size:16px; background-color: #D8F3F0;
+  font-family:Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+  font-weight:300;
+}
+
+h1 { font-size: 2.1rem;  }
+h2 { font-size: 1.9rem; }
+h3 { font-size: 1.7rem; }
+h4,
+h5,
+h6 { font-size: 1.5rem; }
+
+.desc { font-size: 1.5rem; }
+
+#chat-frame {
+  min-width: 320px;
+  max-width: 800px;
+  margin: auto;
+  padding: 1em 0em;
+}
+.chat-talk {
+  overflow: hidden;
+  margin: 0 0 1em 0;
+  padding: 0;
+}
+.chat-talk span {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.chat-talk .talk-icon {
+  float: left;
+  width: auto;
+}
+.chat-talk .talk-content {
+  position: relative;
+  box-sizing: border-box;
+  width: auto;
+  min-height: 50px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 0 auto 0 70px;
+  padding: 1em;
+}
+.chat-talk .talk-icon img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+.chat-talk .talk-content:before {
+  position: absolute;
+  top: 15px;
+  left: -20px;
+  display: block;
+  width: 0;
+  height: 0;
+  content: '';
+  border: 10px solid transparent;
+  border-right-color: #FFFFFF;
+}
+.chat-talk.mytalk .talk-icon {
+  float: right;
+}
+.chat-talk.mytalk .talk-content {
+  margin: 0 70px 0 auto;
+  color: #000;
+  background: #78FF6C;
+}
+.chat-talk.mytalk .talk-content:before {
+  right: -20px;
+  left: auto;
+  border-color: transparent;
+  border-left-color: #78FF6C;
+}
