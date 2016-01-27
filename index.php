@@ -3,8 +3,8 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TefuTefu連鎖</title>
-<meta name="description" content="Tefu君の名言形態素解析→マルコフ連鎖">
+<title>TefuTefu連鎖 - Tefu君の名言をマルコフ連鎖で自動生成</title>
+<meta name="description" content="Tefu君の名言をマルコフ連鎖で自動生成">
 <meta property="fb:app_id" content="283781975031992" />
 <meta property="og:title" content="TefuTefu連鎖" />
 <meta property="og:type" content="website" />
@@ -12,9 +12,9 @@
 <meta property="og:image" content="http://vps1.liverty.biz/hbkr/tefu/tefuogp.png" />
 <meta property="og:site_name" content="TefuTefu連鎖" />
 <meta property="og:locale" content="ja_JP" />
-<meta property="og:description" content="Tefu君の名言を形態素解析→マルコフ連鎖" />
+<meta property="og:description" content="Tefu君の名言をマルコフ連鎖で自動生成" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:description" content="Tefu君の名言を形態素解析→マルコフ連鎖" />
+<meta name="twitter:description" content="Tefu君の名言をマルコフ連鎖で自動生成" />
 <meta name="twitter:site" content="@hbkr" />
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css" />
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
@@ -36,7 +36,7 @@
 
 <header>
 <h1>TefuTefu連鎖</h1>
-<p class="desc">Tefu君の名言を形態素解析→マルコフ連鎖</p>
+<p class="desc">Tefu君の名言をマルコフ連鎖で自動生成します</p>
 </header>
 
 <main>
@@ -82,7 +82,7 @@ echo $summary;
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
     </span></div>
 
-<div style="margin-top:20px">※ <a href=".">リロード</a>する度に文章は変わります</div>
+<div style="margin-top:20px">※ <a href=".">リロード</a>する度に名言は変わります</div>
 <hr>
 </main>
 
