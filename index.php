@@ -15,6 +15,7 @@
 <meta property="og:description" content="Tefu君の名言を形態素解析→マルコフ連鎖" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:description" content="Tefu君の名言を形態素解析→マルコフ連鎖" />
+<meta name="twitter:site" content="@hbkr" />
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css" />
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic">
@@ -22,6 +23,15 @@
 </head>
 
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.5&appId=283781975031992";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <div class="container">
 
 <header>
@@ -78,7 +88,17 @@ echo $summary;
 
 
 <footer>
-<a href="https://github.com/hbkr/tefutefu">github</a> / <a href="http://twitter.com/hbkr">twitter</a> kazuma ieiri
+  <div class="fb-like u-pull-left" style="line-height:1" data-href="http://vps1.liverty.biz/hbkr/tefu" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+  <div class="u-pull-left" style="margin-left:5px;">
+    <a href="https://twitter.com/share" class="twitter-share-button"{count} data-via="hbkr">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </div>
+  <div class="u-pull-left" style="margin-left:5px;">
+    <a href="http://b.hatena.ne.jp/entry/http://vps1.liverty.biz/hbkr/tefu" class="hatena-bookmark-button" data-hatena-bookmark-title="TefuTefu連鎖" data-hatena-bookmark-layout="simple" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+  </div>
+  <div class="u-cf">
+    <a href="https://github.com/hbkr/tefutefu">github</a> / <a href="http://twitter.com/hbkr">twitter</a> kazuma ieiri
+  </div>
 </footer>
 
 </div>
