@@ -1,3 +1,38 @@
+<?php
+require_once('markov.php');
+require('mecabp.php');
+require('data.php');
+
+$summarizer = new Markov;
+$words = array();
+
+$stary = explode("\n", $string);
+$stary = array_map('trim', $stary);
+$stary = array_filter($stary, 'strlen');
+
+$seed = htmlspecialchars($_GET["hash"]);
+if ($seed == "") {
+    $seed = (float)microtime() * 10000000;
+    $url = ''.$seed;
+    header("Location: {$url}");
+    exit;
+}
+//echo $seed;
+srand($seed);
+
+shuffle($stary);
+$string = implode("", $stary);
+
+$mecab = new Mecabp;
+
+$ary = $mecab->parse($string);
+
+for ($i = 0; $i < count($ary); $i++) {
+    $str = $ary[$i]["word"];
+    array_push($words, $str);
+}
+array_push($words, "EOS");
+?>
 <!DOCTYPE html>
 <html lang="ja">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
@@ -40,31 +75,6 @@
 </header>
 
 <main>
-<?php
-require_once('markov.php');
-require('mecabp.php');
-require('data.php');
-
-$summarizer = new Markov;
-$words = array();
-
-$stary = explode("\n", $string);
-$stary = array_map('trim', $stary);
-$stary = array_filter($stary, 'strlen');
-shuffle($stary);
-$string = implode("", $stary);
-
-$mecab = new Mecabp;
-
-$ary = $mecab->parse($string);
-
-for ($i = 0; $i < count($ary); $i++) {
-    $str = $ary[$i]["word"];
-    array_push($words, $str);
-}
-array_push($words, "EOS");
-?>
-
 <div id="chat-frame">
 <p class="chat-talk">
     <span class="talk-icon">
@@ -82,7 +92,7 @@ echo $summary;
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
     </span></div>
 
-<div style="margin-top:20px">※ <a href=".">リロード</a>する度に名言は変わります</div>
+<div style="margin-top:20px"><a href=".">名言を再度作成する</a></div>
 <hr>
 </main>
 
