@@ -14,8 +14,11 @@ $seed = htmlspecialchars($_GET["hash"]);
 if ($seed == "") {
     $seed = (float)microtime() * 10000000;
     $url = ''.$seed;
-    header("Location: {$url}");
-    exit;
+    $ua = $_SERVER['HTTP_USER_AGENT'];
+    if (!preg_match('/Twitterbot/',$ua) && !preg_match('/facebookexternalhit/',$ua)) {
+      header("Location: {$url}");
+      exit;
+    }
 }
 //echo $seed;
 srand($seed);
