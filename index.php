@@ -110,7 +110,7 @@ echo $summary;
     <a href="http://b.hatena.ne.jp/entry/http://vps1.liverty.biz/hbkr/tefu" class="hatena-bookmark-button" data-hatena-bookmark-title="TehuTehu連鎖" data-hatena-bookmark-layout="simple" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
   </div>
   <div class="u-cf">
-    <a href="https://github.com/hbkr/tefutefu">github</a> / <a href="http://twitter.com/hbkr">twitter</a> kazuma ieiri
+    <a href="https://github.com/hbkr/tefutefu">github</a> / <a href="http://twitter.com/hbkr">twitter</a> / <a href="http://vps1.liverty.biz/hbkr/muji">無印連鎖</a> kazuma ieiri
   </div>
 </footer>
 
