@@ -47,7 +47,7 @@ array_push($words, "EOS");
 <meta property="og:title" content="TehuTehu連鎖" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://vps1.liverty.biz/hbkr/tefu/" />
-<meta property="og:image" content="http://vps1.liverty.biz/hbkr/tefu/tefuogp.png" />
+<meta property="og:image" content="http://vps1.liverty.biz/hbkr/tefu/tehuogp.png" />
 <meta property="og:site_name" content="TehuTehu連鎖" />
 <meta property="og:locale" content="ja_JP" />
 <meta property="og:description" content="Tehu君の名言をマルコフ連鎖で自動生成" />
@@ -81,7 +81,7 @@ array_push($words, "EOS");
 <div id="chat-frame">
 <p class="chat-talk">
     <span class="talk-icon">
-        <img src="tefuimg.jpg" alt="tartgeticon" width="50" height="50"/>
+        <img src="tehuimg.jpg" alt="tartgeticon" width="50" height="50"/>
     </span>
     <span class="talk-content">
 
